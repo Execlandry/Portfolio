@@ -2,13 +2,15 @@ import React,{useState} from 'react'
 import './header.css'
 import Web from '../web/Web';
 import Mobile from '../mobile/Mobile'
-
+import {NavLink} from 'react-router-dom'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="header">
+        <NavLink to="/">
             <div className="logo">Portfolio</div>
+        </NavLink>
             <div className="menu">
                 <div className="web-menu">
                     <Web/>

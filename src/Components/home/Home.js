@@ -5,7 +5,6 @@ import Body from '../body/Body'
 import Footer from '../footer/Footer'
 
 
-
 function Home() {
     return (
         <div className="home">

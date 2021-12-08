@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './mobile.css'
 
 function Mobile({ isOpen, setIsOpen }) {
@@ -11,40 +12,40 @@ function Mobile({ isOpen, setIsOpen }) {
             <div className="mobile-options">
 
                 <div className="mobile-option">
-                    <a href="/project">
+                    <NavLink to="/project">
                         <i class="paint brush icon option-icon"></i>
                     Projects
-                </a>
+                </NavLink>
 
                 </div>
 
                 <div className="mobile-option">
-                    <a href="/skills">
+                    <NavLink to="/skills">
                         <i class="laptop icon option-icon"></i>
                 Skills
-                </a>
+                </NavLink>
 
                 </div>
 
                 <div className="mobile-option">
-                    <a href="/work">
+                    <NavLink to="/work">
                         <i class="briefcase icon option-icon"></i>
                 Work
-                </a>
+                </NavLink>
                 </div>
 
                 <div className="mobile-option">
-                    <a href="/contact">
+                    <NavLink to="/contact">
                         <i class="user outline icon option-icon"></i>
                 Contact
-                </a>
+                </NavLink>
                 </div>
 
                 <div className="mobile-option">
-                <a href="/admin">
+                <NavLink to="/admin">
                 <i class="database icon"></i>
                 Admin
-                </a>
+                </NavLink>
             </div>
             </div>
 
