@@ -5,7 +5,7 @@ function Web() {
     return (
         <div className="web">
             <div className="web-option">
-                <a href="#Project">
+                <a href="/project">
                     <i class="paint brush icon option-icon"></i>
                     Projects
                 </a>
@@ -13,7 +13,7 @@ function Web() {
             </div>
 
             <div className="web-option">
-                <a href="#Skills">
+                <a href="/skills">
                 <i class="laptop icon option-icon"></i>
                 Skills
                 </a>
@@ -21,16 +21,23 @@ function Web() {
             </div>
 
             <div className="web-option">
-                <a href="#Work">
+                <a href="/work">
                 <i class="briefcase icon option-icon"></i>
                 Work
                 </a>
             </div>
 
             <div className="web-option">
-                <a href="#Contact">
+                <a href="/contact">
                 <i class="user outline icon option-icon"></i>
                 Contact
+                </a>
+            </div>
+
+            <div className="web-option">
+                <a href="/admin">
+                <i class="database icon"></i>
+                Admin
                 </a>
             </div>
 

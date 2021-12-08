@@ -11,7 +11,7 @@ function Mobile({ isOpen, setIsOpen }) {
             <div className="mobile-options">
 
                 <div className="mobile-option">
-                    <a href="#Projects">
+                    <a href="/project">
                         <i class="paint brush icon option-icon"></i>
                     Projects
                 </a>
@@ -19,7 +19,7 @@ function Mobile({ isOpen, setIsOpen }) {
                 </div>
 
                 <div className="mobile-option">
-                    <a href="#Skills">
+                    <a href="/skills">
                         <i class="laptop icon option-icon"></i>
                 Skills
                 </a>
@@ -27,18 +27,25 @@ function Mobile({ isOpen, setIsOpen }) {
                 </div>
 
                 <div className="mobile-option">
-                    <a href="#Work">
+                    <a href="/work">
                         <i class="briefcase icon option-icon"></i>
                 Work
                 </a>
                 </div>
 
                 <div className="mobile-option">
-                    <a href="#Contact">
+                    <a href="/contact">
                         <i class="user outline icon option-icon"></i>
                 Contact
                 </a>
                 </div>
+
+                <div className="mobile-option">
+                <a href="/admin">
+                <i class="database icon"></i>
+                Admin
+                </a>
+            </div>
             </div>
 
 
