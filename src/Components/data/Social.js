@@ -4,12 +4,12 @@ import github from '../../assets/github.png'
 export const SocialData=[
     {
         platform:"Instagram",
-        link:"www.instagram.com/execlandry",
+        link:"https://www.instagram.com/execlandry",
         icon: instagram
     },
     {
         platform:"github",
-        link:"www.instagram.com/execlandry",
+        link:"https://www.github.com/execlandry",
         icon: github
     },
 
