@@ -35,12 +35,12 @@ function Web() {
                 </NavLink>
             </div>
 
-            <div className="web-option">
+            {/* <div className="web-option">
                 <NavLink to="/admin">
                 <i class="database icon"></i>
                 Admin
                 </NavLink>
-            </div>
+            </div> */}
 
         </div>
     )

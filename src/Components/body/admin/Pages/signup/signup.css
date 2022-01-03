@@ -1,0 +1,9 @@
+.signup-section-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-picture{
+    height: 420px;
+
+}

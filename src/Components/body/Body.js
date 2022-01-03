@@ -8,42 +8,61 @@ import Admin from './admin/Admin';
 
 import Contact from './contact/Contact'
 import { Route, Routes } from 'react-router-dom';
+import Signup from './admin/Pages/signup/Signup';
+import AdDashboard from '../ad-dashboard/AdDashboard';
 
 
 
 function Body() {
-    return (
+    return (<>
         <div className="body">
 
 
             <Routes>
-                <Route exact path="/" 
-                element={ <About />}>
-                </Route>
-                
-                <Route exact path="/project" 
-                element={ <Projects />}>
+                <Route exact path="/"
+                    element={<About />}>
                 </Route>
 
-                <Route exact path="/skills" 
-                element={ <Skills />}>
+                <Route exact path="/project"
+                    element={<Projects />}>
                 </Route>
 
-                <Route exact path="/work" 
-                element={ <Work />}>
+                <Route exact path="/skills"
+                    element={<Skills />}>
                 </Route>
 
-                <Route exact path="/contact" 
-                element={ <Contact />}>
+                <Route exact path="/work"
+                    element={<Work />}>
+                </Route>
+
+                <Route exact path="/contact"
+                    element={<Contact />}>
                 </Route>
 
                 <Route exact path="/admin"
                     element={<Admin />}>
                 </Route>
 
+                <Route exact path="/signup"
+                    element={<Signup />}>
+                </Route>
+
+                {/* <Route exact path="/dashboard"
+                    element={<AdDashboard/>}>
+                </Route> */}
 
             </Routes>
         </div>
+
+        <div>
+            <Routes>
+                <Route exact path="/dashboard"
+                    element={<AdDashboard />}>
+                </Route>
+
+            </Routes>
+        </div>
+    </>
         /* <section id='about'>
         <About/>
     </section>

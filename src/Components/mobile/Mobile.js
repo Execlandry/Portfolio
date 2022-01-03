@@ -41,12 +41,12 @@ function Mobile({ isOpen, setIsOpen }) {
                 </NavLink>
                 </div>
 
-                <div className="mobile-option">
+                {/* <div className="mobile-option">
                 <NavLink to="/admin">
                 <i class="database icon"></i>
                 Admin
                 </NavLink>
-            </div>
+            </div> */}
             </div>
 
 

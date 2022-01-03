@@ -14,7 +14,7 @@ function ProjectCards({ project }) {
                         <a href={project.github} className="project-link">
                             <div className="link-button">
                                 <i class="github icon"></i>Github
-                    </div>
+                            </div>
                         </a>
                     )}
                 </div>
