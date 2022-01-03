@@ -34,9 +34,7 @@ function Contact() {
 
                 <div className="download">
                     <a download href={require('../../../assets/resume.pdf').default}>
-                        <i class="cloud download icon">
-
-                        </i>
+                        <i class="cloud download icon"> </i>
                 Download Resume
             </a>
 
