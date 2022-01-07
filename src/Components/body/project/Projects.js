@@ -11,7 +11,10 @@ function Projects() {
             <label htmlFor="" className="section-title">Project</label>
             <div>
                 {data.map(project=>{
-                    return <ProjectCards project={project}/>
+                    return <> 
+                    <ProjectCards project={project}/>
+                    <Separator/>
+                    </>
                 })}
             </div>
         </div>
