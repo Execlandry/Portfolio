@@ -7,7 +7,7 @@ export const ProjectData=[
         title:"FoodCourt",
         about:"This is a Management website created with Lampp stack.",
         tags:["PHP","MariaDB"],
-        github:"www.github.com/execlandry",
+        github:"https://github.com/Execlandry/FoodCourt",
         image:food
     },
     {
@@ -15,7 +15,7 @@ export const ProjectData=[
         title:"Folder Manager",
         about:"This is a Folder Organizer that lets a user see their folder and files in structured way.",
         tags:["Reactjs","NodeJS"],
-        github:"www.github.com/execlandry",
+        github:"https://github.com/Execlandry/Folder_Manager",
         image:fold
     }
 ]

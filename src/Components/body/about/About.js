@@ -1,21 +1,22 @@
 import React from 'react';
 import './about.css';
 import code from '../../../assets/code.png';
+// import profile from '../../../assets/profile.jpeg';
 import SocialContact from '../../common/social-contact/SocialContact';
-import {useEffect, useRef} from "react";
-import {init} from 'ityped'
+import { useEffect, useRef } from "react";
+import { init } from 'ityped'
 
 
 
 function About() {
-    const textRef=useRef();
+    const textRef = useRef();
 
     useEffect(() => {
-        init(textRef.current,{
-            showCursor:false,
-            strings:["Nikhil Kerkar,"],
+        init(textRef.current, {
+            showCursor: false,
+            strings: ["Nikhil Kerkar,"],
         })
-    },[]);
+    }, []);
 
     return (
         <div className="about">
@@ -34,7 +35,7 @@ function About() {
                 </div>
 
             </div>
-            <SocialContact/>
+            <SocialContact />
 
         </div>
     )

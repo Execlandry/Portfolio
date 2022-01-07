@@ -1,6 +1,9 @@
+import skill from '../../assets/skill.png'
+import skills from '../../assets/skills.png'
 export const SkillsData=[
     {
         type:"Frontend",
+        image: skill,
         list:[
             {
                 name:"ReactJs",
@@ -14,6 +17,7 @@ export const SkillsData=[
     },
     {
         type:"Backend",
+        image: skills,
         list:[
             {
                 name:"PHP",

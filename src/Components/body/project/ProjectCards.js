@@ -1,7 +1,12 @@
 import React from 'react'
 import './project-card.css';
+import ReactRoundedImage from "react-rounded-image";
 
 function ProjectCards({ project }) {
+    const handleLink = () => {
+        window.open(project.github);
+
+    }
     return (
         <div className="project-card">
 
@@ -11,8 +16,10 @@ function ProjectCards({ project }) {
 
                 <div className="project-links">
                     {project.github && (
-                        <a href={project.github} className="project-link">
-                            <div className="link-button">
+
+                        <a  href={project.github} target="_blank" rel="noreferrer" className="project-link">
+
+                            <div className="link-button" onClick={handleLink} >
                                 <i class="github icon"></i>Github
                             </div>
                         </a>
@@ -30,7 +37,14 @@ function ProjectCards({ project }) {
                 </div>
 
             </div>
-            <img src={project.image} alt="" className="project-photo" />
+            <ReactRoundedImage className="project-photo"
+            image={project.image}
+            imageHeight="200" 
+            imageWidth="300"
+            roundedSize="15"
+            borderRadius="30"
+            hoverColor="aquamarine"
+              />
 
         </div>
     )
