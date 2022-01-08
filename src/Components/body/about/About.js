@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import code from '../../../assets/code.png';
 import codes from '../../../assets/codes.png';
-import ReactRoundedImage from "react-rounded-image";
+// import ReactRoundedImage from "react-rounded-image";
 
 // import profile from '../../../assets/profile.jpeg';
 import SocialContact from '../../common/social-contact/SocialContact';
