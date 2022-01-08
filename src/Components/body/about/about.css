@@ -20,39 +20,73 @@
     color: blue;
     font-size: 32px;
 }
-
-  
-/* .about-img{
-    height: 40rem;
-    width: 90%;  
-    text-align: center;
-    padding: 1rem 0;
+.info-name1{
+    color: blue;
+    font-size: 32px;
 }
-    .about-pro{
-        clip-path: circle();
-        width: 100%;
-         height: 15em;
-        width: 15em; 
-        border-radius: 50em;
-        border: 2px solid black;
-        border-color: aqua;
-        
-    } */
+.about-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.about-picture1{
+    height: 400px;
+}
+
+.info{
+    text-align: center;
+    margin-right: 5rem;
+}
+.small{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 10rem;
+}
+
+.movable{
+    padding-top: 5rem;
+}
+#int{
+    text-align: center;
+}
     
 @media only screen and (max-width:720px){
-    .about-top{
-        flex-direction: column;
-        justify-content: center;
+    .about-bottom{
+        flex-direction: column-reverse;
+        justify-content: space-around;
         align-items: center;
     }
+    .about-top{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
     .about-picture{
-        height: 200px;
+        height: 295px;
     }
     .about-info{
+        margin-top: 1.5em;
         font-size: 20px;
     }
     .info-name{
         font-size: 24px;
         
     }
+    .info{
+        text-align: center;
+    }
+    .small{
+        font-size: 18px;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .movable{
+        padding: none;
+    }
+    .about-photo{
+        height: 210px;
+    }
+    
 }

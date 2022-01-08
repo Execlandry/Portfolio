@@ -3,10 +3,7 @@ import './project-card.css';
 import ReactRoundedImage from "react-rounded-image";
 
 function ProjectCards({ project }) {
-    const handleLink = () => {
-        window.open(project.github);
 
-    }
     return (
         <div className="project-card">
 
@@ -19,7 +16,7 @@ function ProjectCards({ project }) {
 
                         <a  href={project.github} target="_blank" rel="noreferrer" className="project-link">
 
-                            <div className="link-button" onClick={handleLink} >
+                            <div className="link-button" >
                                 <i class="github icon"></i>Github
                             </div>
                         </a>
